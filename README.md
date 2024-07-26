@@ -1,17 +1,15 @@
-THERE ARE TWO PROJECTS TILL NOW:
-1)THE PRIME NUMBER CHECKER
+# 1)THE PRIME NUMBER CHECKER
   In this we can give a start and a end for a range
   Where we will check whether the numbers in the range are prime number or not
   If they are prime we have to change them into their binary number (where i used toString(2) )
   And if not a prime number we will give their divisor
   
+## Example:
   
-  Example:
-  
-  Input:
+## Input:
   start = 6, end = 15
   
-  Output:
+## Output:
   {
   '6': [ 1, 2, 3, 6 ],
   '7': '111',
@@ -24,14 +22,14 @@ THERE ARE TWO PROJECTS TILL NOW:
   '14': [ 1, 2, 7, 14 ]
   }
 
-2)THE PASSWORD GENERATOR
+# 2)THE PASSWORD GENERATOR
 
 Accepts parameters for password length, inclusion of numbers, special characters, and uppercase letters.
 Generates a password based on the provided parameters.
 Returns the password along with the given conditions in a JSON response.
 
 Use Postman to send a POST request to http://localhost:5000/generate-password with a JSON body
-Input:
+## Input:
 {
     "length": 6,
     "number": true,
@@ -39,7 +37,7 @@ Input:
     "uppercase": true
 }
 
-Output:
+## Output:
 {
     "password": "S9bY71",
     "length": 6,
@@ -47,3 +45,18 @@ Output:
     "specialchars": false,
     "uppercase": true
 }
+
+# Library Management System:
+We can do simple create,read,update,delete using nodejs and mongodb such as these:
+
+## Create a Book
+
+## Update a Book
+
+## Get All Books
+
+## Delete a Book
+
+## Get Books by Author
+
+## Get Books by Genre
